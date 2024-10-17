@@ -39,7 +39,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             <ToggleButton value="Full Stack Application" onClick={() => setToggle('Full Stack Application')}>Full Stack Application</ToggleButton>
           }
         </ToggleButtonGroup>
-        <CardContainer>
+        {/* <CardContainer>
           {toggle === 'all' && projects
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} />
@@ -49,7 +49,8 @@ const Projects = ({ openModal, setOpenModal }) => {
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} />
             ))}
-        </CardContainer>
+        </CardContainer> */}'
+        <div>Projects page is under Construction. Kindly Contact Admin !</div>
       </Wrapper>
     </Container>
   )
