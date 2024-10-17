@@ -1,20 +1,170 @@
 export const Bio = {
-  name: "Pratik Sawant",
+  name: "Omkar Varambale",
   roles: [
     "Full Stack Developer",
     "UI/UX Designer",
     "Graphic Designer",
+    "Dev-Ops Engineer"
   ],
-  description:
-    "Experienced PG-DAC certified web developer with advanced skills in web design and development. Currently an Executive Web Developer and Graphic Designer at TreatGlobal PVT Ltd. Seeking new opportunities in the IT sector to contribute to impactful web development projects.",
-  github: "https://github.com/pratiks1010",
-  resume:
-    "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/Pratik%20Sawant%20Resume%20Profile.pdf?alt=media&token=ca3b5165-3298-417e-9128-f9c8b659e572",
-  linkedin: "https://www.linkedin.com/in/pratik-sawant-web-developer/",
-  email: "sawantpratik1099@gmail.com",
-  insta: "https://www.instagram.com/monk_mind_?igsh=MXRpOXR5c2E1NXN5Yw==",
+  description:"Experienced PG-DAC certified web developer with advanced skills in web design and development, currently working as a Software Developer at Macleods Pharmaceuticals. Seeking new opportunities in the IT sector to contribute to impactful web development projects and transform ideas into digital reality.",
+  github: "https://github.com/infinitecoder-omk",
+  resume:"http://bit.ly/3BN2AVG",
+  linkedin: "https://www.linkedin.com/in/omkar-varambale-816a81148/",
+  email: "omvm4040@gmail.com",
+  insta: "https://www.instagram.com/omkar_varambale?igsh=cjNjYjNrN2h4Znl6",
+  
 
 };
+
+// export const skills = [
+//   {
+//     title: "Frontend",
+//     skills: [
+//       {
+//         name: "React Js",
+//         image:"https://s2.svgbox.net/files.svg?ic=reactjs",
+//       },
+//       {
+//         name: "Redux",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/redux.png?alt=media&token=b89c7528-b9ca-4c71-a954-78235412533f",
+//       },
+//       {
+//         name: "JQuery",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/jquery.png?alt=media&token=79862ce1-6516-4e00-9a6c-c5c65a867d15",
+//       },
+//       {
+//         name: "HTML",
+//         image: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/html.png?alt=media&token=9c276454-8cdc-4144-8158-e30733209d93",
+//       },
+//       {
+//         name: "CSS",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/css.png?alt=media&token=fcbad00f-74a8-48ad-a9dd-2500401970a8",
+//       },
+//       {
+//         name: "JavaScript",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/javascript.png?alt=media&token=756273aa-4511-4180-85f0-abe85b1ee74f",
+//       },
+//       {
+//         name: "Bootstrap",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/bootstrap.png?alt=media&token=e48a5f3a-eda5-4f41-959a-554c40d339bf",
+//       },
+
+
+//     ],
+//   },
+//   {
+//     title: "Backend",
+//     skills: [
+//       {
+//         name: "Node Js",
+//         image: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/nextjs.png?alt=media&token=6f4c6bee-7fc9-40d8-a09f-40969d9eb674",
+//       },
+//       {
+//         name: "Express Js",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/express.png?alt=media&token=cd359ffa-b2d8-4bd2-8e57-a58c8491e7d8",
+//       },
+//       {
+//         name: "Spring Boot",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/spring%20boot.png?alt=media&token=b81bd744-3e4e-4e50-8788-64c88f1d2eca",
+//       },
+
+
+//       {
+//         name: "MySQL",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/mysql.png?alt=media&token=54b3d91c-cc8f-4577-b227-0eede258bb6a",
+//       },
+
+//       {
+//         name: "MongoDB",
+//         image:
+//           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+//       },
+
+//     ],
+//   },
+//   {
+//     title: "UI/UX Design",
+//     skills: [
+//       {
+//         name: "Adobe Xd",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/xd.png?alt=media&token=d7419eb5-2459-4042-b0c6-ac49e9599b6a",
+//       },
+//       {
+//         name: "Figma",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/figma.png?alt=media&token=8b183ed8-c0da-4f7a-ad9a-678187c4466a",
+//       },
+//       {
+//         name: "Canva",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/canva.png?alt=media&token=9b59c002-4f76-4443-b36a-6b66ee19693f",
+//       },
+//       {
+//         name: "Photoshop",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/photoshop.png?alt=media&token=dcf91f3f-e2ee-4e56-8213-75123a4a5d42",
+//       },
+//       {
+//         name: "Adobe Illustrator",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/illustrator.png?alt=media&token=8464281d-7555-4da3-ad1b-7ee6d9a4df0d",
+//       },
+//       {
+//         name: "Wordpress",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/wordpress.png?alt=media&token=6908c51d-71b6-4edb-8145-8318e03ce00e",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Others",
+//     skills: [
+//       {
+//         name: "Git",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/git.png?alt=media&token=b1f57f9a-4b47-4dd8-980f-deb8f03bd0e3",
+//       },
+//       {
+//         name: "GitHub",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/github.png?alt=media&token=074aeaf6-857d-44eb-bc1b-3f4b311a01e9",
+//       },
+//       {
+//         name: "Docker",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/docker-mark-blue.png?alt=media&token=2a2dc954-1722-42b1-b8e3-fa4d708c4732",
+//       },
+
+//       {
+//         name: "VS Code",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/visual-studio.png?alt=media&token=903689e5-8419-4f65-84d3-2a5dbd42eeb1",
+//       },
+//       {
+//         name: "Postman",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/postman-icon.png?alt=media&token=f09d6748-f714-40db-957c-3fd5abd785c2",
+//       },
+//       {
+//         name: "Swagger",
+//         image:
+//           "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/Swagger-logo.png?alt=media&token=1a28b7a5-564b-4126-9474-ce114737954e",
+//       },
+
+
+//     ],
+//   },
+// ];
+
 
 export const skills = [
   {
@@ -23,36 +173,36 @@ export const skills = [
       {
         name: "React Js",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/react.png?alt=media&token=5061034e-5010-41fc-a5bb-2deaf58293da",
+          "https://s2.svgbox.net/files.svg?ic=reactjs",
       },
       {
         name: "Redux",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/redux.png?alt=media&token=b89c7528-b9ca-4c71-a954-78235412533f",
+          "https://img.icons8.com/?size=100&id=b6vIINYN0kfW&format=png&color=000000",
       },
       {
-        name: "JQuery",
+        name: "TypeScript",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/jquery.png?alt=media&token=79862ce1-6516-4e00-9a6c-c5c65a867d15",
+          "https://s2.svgbox.net/files.svg?ic=typescript-official",
       },
       {
         name: "HTML",
-        image: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/html.png?alt=media&token=9c276454-8cdc-4144-8158-e30733209d93",
+        image: "https://s2.svgbox.net/files.svg?ic=html",
       },
       {
         name: "CSS",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/css.png?alt=media&token=fcbad00f-74a8-48ad-a9dd-2500401970a8",
+          "https://s2.svgbox.net/files.svg?ic=css",
       },
       {
         name: "JavaScript",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/javascript.png?alt=media&token=756273aa-4511-4180-85f0-abe85b1ee74f",
+          "https://s2.svgbox.net/files.svg?ic=node",
       },
       {
         name: "Bootstrap",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/bootstrap.png?alt=media&token=e48a5f3a-eda5-4f41-959a-554c40d339bf",
+          "https://img.icons8.com/?size=100&id=EzPCiQUqWWEa&format=png&color=000000",
       },
 
 
@@ -63,30 +213,60 @@ export const skills = [
     skills: [
       {
         name: "Node Js",
-        image: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/nextjs.png?alt=media&token=6f4c6bee-7fc9-40d8-a09f-40969d9eb674",
+        image:"https://img.icons8.com/?size=100&id=54087&format=png&color=000000" ,
       },
       {
         name: "Express Js",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/express.png?alt=media&token=cd359ffa-b2d8-4bd2-8e57-a58c8491e7d8",
+          "https://img.icons8.com/?size=100&id=B4UIxQoMYIGD&format=png&color=000000",
       },
       {
         name: "Spring Boot",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/spring%20boot.png?alt=media&token=b81bd744-3e4e-4e50-8788-64c88f1d2eca",
+          "https://img.icons8.com/?size=100&id=90519&format=png&color=000000",
+      },
+      {
+        name: "ASP.NET Core",
+        image:
+          "https://img.icons8.com/?size=100&id=o0pte3XTuPWi&format=png&color=000000",
       },
 
-
+    ],
+  },
+  {
+    title: "Database",
+    skills: [
       {
         name: "MySQL",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/mysql.png?alt=media&token=54b3d91c-cc8f-4577-b227-0eede258bb6a",
+          "https://s2.svgbox.net/files.svg?ic=mysql",
       },
-
+      {
+        name: "MSSQL",
+        image:
+          "https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000",
+      },
       {
         name: "MongoDB",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          "https://s2.svgbox.net/files.svg?ic=mongo",
+      },
+
+    ],
+  },
+  {
+    title: "Operating Systems",
+    skills: [
+      {
+        name: "Windows",
+        image:
+          "https://img.icons8.com/?size=100&id=108792&format=png&color=000000",
+      },
+
+      {
+        name: "Linux",
+        image:
+          "https://img.icons8.com/?size=100&id=17842&format=png&color=000000",
       },
 
     ],
@@ -97,68 +277,78 @@ export const skills = [
       {
         name: "Adobe Xd",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/xd.png?alt=media&token=d7419eb5-2459-4042-b0c6-ac49e9599b6a",
+          "https://img.icons8.com/?size=100&id=TF2CQcYTNqU2&format=png&color=000000",
       },
       {
         name: "Figma",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/figma.png?alt=media&token=8b183ed8-c0da-4f7a-ad9a-678187c4466a",
+          "https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000",
       },
       {
         name: "Canva",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/canva.png?alt=media&token=9b59c002-4f76-4443-b36a-6b66ee19693f",
+          "https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000",
       },
       {
         name: "Photoshop",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/photoshop.png?alt=media&token=dcf91f3f-e2ee-4e56-8213-75123a4a5d42",
+          "https://s2.svgbox.net/files.svg?ic=photoshop",
       },
-      {
-        name: "Adobe Illustrator",
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/illustrator.png?alt=media&token=8464281d-7555-4da3-ad1b-7ee6d9a4df0d",
-      },
-      {
-        name: "Wordpress",
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/wordpress.png?alt=media&token=6908c51d-71b6-4edb-8145-8318e03ce00e",
-      },
+      // {
+      //   name: "Adobe Illustrator",
+      //   image:
+      //     "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/illustrator.png?alt=media&token=8464281d-7555-4da3-ad1b-7ee6d9a4df0d",
+      // },
+      // {
+      //   name: "Wordpress",
+      //   image:
+      //     "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/wordpress.png?alt=media&token=6908c51d-71b6-4edb-8145-8318e03ce00e",
+      // },
     ],
   },
   {
-    title: "Others",
+    title: "Tools",
     skills: [
       {
         name: "Git",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/git.png?alt=media&token=b1f57f9a-4b47-4dd8-980f-deb8f03bd0e3",
+          "https://s2.svgbox.net/files.svg?ic=git",
       },
       {
-        name: "GitHub",
+        name: "GitLab",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/github.png?alt=media&token=074aeaf6-857d-44eb-bc1b-3f4b311a01e9",
+          "https://s2.svgbox.net/files.svg?ic=gitlab",
       },
       {
         name: "Docker",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/docker-mark-blue.png?alt=media&token=2a2dc954-1722-42b1-b8e3-fa4d708c4732",
+          "https://s2.svgbox.net/files.svg?ic=docker",
       },
 
       {
         name: "VS Code",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/visual-studio.png?alt=media&token=903689e5-8419-4f65-84d3-2a5dbd42eeb1",
+          "https://s2.svgbox.net/files.svg?ic=vscode",
+      },
+      {
+        name: "Visual Studio",
+        image:
+          "https://s2.svgbox.net/files.svg?ic=vscode3",
       },
       {
         name: "Postman",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/postman-icon.png?alt=media&token=f09d6748-f714-40db-957c-3fd5abd785c2",
+          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
       },
       {
         name: "Swagger",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/Swagger-logo.png?alt=media&token=1a28b7a5-564b-4126-9474-ce114737954e",
+          "https://s2.svgbox.net/files.svg?ic=swagger",
+      },
+      {
+        name: "NPM",
+        image:
+          "https://img.icons8.com/?size=100&id=24895&format=png&color=000000",
       },
 
 
@@ -169,22 +359,50 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/treatglobal_logo.jpg?alt=media&token=8bddb9be-b7b6-4d9c-a8f8-8681abb408b4",
-    role: "Executive Web Developer and Graphic Designer",
-    company: "TreatGlobal Pvt. Ltd.",
-    date: "Present",
-    desc: "Working as Web Developer and Graphic Designer ",
+    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABHVBMVEX///8AAAD9///8/Pz//f////7/9vjo6Oj/9vb19fW4uLiXFx///fzp6efk5OKFhYV/f36bU1epV1+bISTQ0NDY2NbHx8d2dna1tbMTExNZWVmVlZPUs7WdISmaOULZsrSfn50oKCVra2sxMS+opqdFRUUPDAeRFh+nW2D/+PSZEBpOTUplZWIhISA4NzWPj43Uv8CZS1SWUVWgXGG1e4Dlxcjx3d6oen+PUVXHo6O1ioy8oaONMDWSQkvnz866fYKMIS2TFRPHjo+tbXCziI2MJCuMAACaKC6dSEuoYm2kHCSAEh/SlJaDABDWp6rvzNPh0tayXWC2eHfpt7aeMTugRU2mOkOdIC/AcHTjur2pbnebABP/4OKFIiyeWle48N7XAAAFfElEQVR4nO3XDVPaSBgH8CUvENgghvAmEEBFNwStIhpPi6ikaAuC1atV67Xf/2Pcs6FYa9u7uZlroTP/n1FDson7n2ezGxkDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgP+TSl+JrVJm1v34eVTGCqVaorQw6478RGoqsbWYrM+6G/9Ie9xTlHD7tolCvndUjtJUrlSKzWPCSY91FnaUKZrMqYVHNeXziWkLnWmNRnjefLxaU6Y3yOVjiZX4L+z5D1GXtlvWxE57dy/MsL1j7XSZSqGM6m7bavv7rT8OZPzDSdOdl0zR/cNWp3O02zXpDjutVqt9XDYUph3uWPumorFMqR6bdbgQJSx73OaSx/lJWR6Jdrg41hVN71qC89N3XdfjPaYqLPBE2PAVM6sdjwvBvX7PUMZndNDmot1lbJfzvq98qevMyYR8cJ4O9W3ndThSe9w5MRXFrzjOeSX9xm8PRE8O2cO0K9t9esn2ho5tXVxYtjMas7Llumlqyys+u+87TtugIsoZdR5QnLKwK9HwwwV3zsOn7vLEOd1m5i59HtMpw+XiQtGfzCtGmztteSawB6+NyaHx0BZ3rNEbOcI1lHkJqDNZQ7tivHXTu6zKnb7J/PbVcZo711G/49DgVHTdcKmGjIbtoXuVvrpKuy/9viP+ZIoqazm63L5yrynmMXeEwbRJRPa92XcGFMoYJtwWt0cyIdWwJ0RvT9h9w/9oi7F8/GQNe9RYDwS3hRCjw+7QGV7SuFVk1Ht6km98RaHLR4aiGD3hiIM5TEiPYJjQaA1Gl9GbwWnZr8jS0aIna3hBawEL+OAdTactquFA3Mtxuze0R5dlz7mhcXnMByJKK0bDdZybeUn4OEqnCfv6vbA7htYTdmDs0+exoZmGa4uermt6wPmxQaINi9tyJEavhdPxKeF7v3Hft0WbmabeuOPnlSeL50zJt5KqnGn2hDMZpVQn531wd+Xcnvh+nw+GR8Gu/4Y7N0EQHNwJOkfK7J4etvZ4HAj7dKxX+e27u9cjh3f8tx+CID10+PW81FB2o8oHsobeESs/DG7/6gwGA8/zBvbZmHWPRtzzaD18kIe8/TsvPHf2imnVj9w79Tw+7EXZ+EGuko6wumx79EAHheXPOthT21b6g9G1rH16u3Hb5R2XFjf6/pSmdxO/GrguvdO4knXYs+TvtHVAs87lcatSuQn2oopcD+mKoOozpWvJvbE/JwWU6EWLnist/KHSDzV8zkKGGb6QNgzTCDVoa4R7pmrSS4vh+4bJTF0xow26WqdbmfI+cnHV/u3v/iqPHdHlYhDuKd9sj3Rl2mJy6eS09uTg13vzIlGM55rJTDGbbWZia7nkRoEVayxf0hcXGW21DbVeVBPFJDXKNrMLxZy6Vohv1NV8iW2U2FaelVb0+kY80YzniguZZja5losVE7NO9VQ9Ei9EYrlIJhPJJSOF5GaNLaXYi0W92GTNIkstqyVqsbSQiCxQi2wkoUZq8eWSupZny3m2ssbyq/rWcpJuk4hkc5HsQiQRW5qrfw3r62HCpWnC5RrbTLE1SlhktKVW1dJSvLA5TbgeJlwNE65OEr5gpdW4TLg0Tbg5ZwmTiac1XP6cUA0Tqs8TLn0nof484W9WQyYTPhul39QwHKXrC/NaQ5lw/T/WMP51DZO/cw3Vr2r4g+dwknBOa/iDuVT9PJduhnPp+rO5dOvpXMrmey79sh4WM8lmuB5u1Fm+pqZStB6qtRW1UFRzG7FcM5YthuthsxBfofWwxlam62FhZbIexug287ceAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzG3yn0wcHLvrQwAAAAAElFTkSuQmCC",
+    role: "Software Developer",
+    company: "Macleods Pharmaceuticals",
+    date: "Jan 2024 to Present",
+    desc: "Working as a Full Stack Developer on Human Resource Management Systems (HRMS) and small-scale sales projects, overseeing the complete development lifecycle from design to final deployment, including DNS configuration.",
     skills: [
-      "Reactjs",
-      "HTML",
-      "CSS",
-      "Bootstrap",
+      "ReactJS",
+      "ReactTS",
+      "React-query",
+      "React-table",
+      "React Bootstrap V5",
       "JavaScript",
-      "Springboot",
-      "Photoshop",
+      "TypeScript",
       "Figma",
-      "Adobe XD",
-      " Next Js",
+      "Dot net core 8",
+      "Node Js",
+      "Linux Deployment",
+      "Mysql",
+      "Oracle",
+      "GIT",
+    ],
+
+  },
+  {
+    id: 1,
+    img: "https://awrange.com/wp-content/uploads/2024/09/awrange-bg-1024x1018.png",
+    role: "Software Developer Intern",
+    company: "Awrange Digital Solutions Pvt. Ltd.",
+    date: "Oct 2023 to Dec 2024",
+    desc: "Working as a Full Stack Developer on Pracup, an online educational platform now live at www.pracup.com, managing the complete development lifecycle from design to deployment, including DNS configuration.",
+    skills: [
+      "ReactJS",
+      "ReactTs",
+      "React-query",
+      "React-table",
+      "React Bootstrap V5",
+      "JavaScript",
+      "TypeScript",
+      "Figma",
+      "Dot net core 8",
+      "Node Js",
+      "Feathers JS",
+      "MongoDB",
+      "GIT",
     ],
 
   },
@@ -198,38 +416,38 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/iacsd.png?alt=media&token=9a8bdbff-138f-4971-bd38-c5dca1946779",
+    img: "https://media.licdn.com/dms/image/v2/C4D0BAQGObigiUGPxhA/company-logo_200_200/company-logo_200_200/0/1631354037878?e=2147483647&v=beta&t=2v7YCVQjrj5mzDCt7v0aFkMmXIKXTeZDkCf4lauwjrU",
     school: "Institute for Advanced Computing & Software Development",
     date: "March 2023 - Sep 2023",
-    grade: "70.50%",
-    desc: " completion of the Advanced Computing program and Software Development at #IACSD Akurdi, Pune, mastering Java, .NET (C#), SQL, MySQL, React, and MongoDB. Equipped with practical hands-on experience and a thirst for innovation, I'm prepared to tackle new challenges and contribute to cutting-edge projects. Grateful for the transformative journey at #IACSD, I'm eagerly anticipating the next chapter of professional growth.",
+    grade: "70%",
+    desc: "Completion of the Advanced Computing Program and Software Development at #Sunbeam Institute of Information and Technology, Pune-Karad, where I mastered Java, .NET (C#), SQL, MySQL, React, and MongoDB. This transformative journey provided me with practical hands-on experience and a solid foundation, which I continue to build upon as I upskill and explore new technologies. With a passion for innovation, I am ready to tackle new challenges and contribute to impactful, cutting-edge projects. Grateful for the knowledge and growth opportunities at #SUNBEAM, I remain committed to learning and evolving in the next chapter of my professional journey.",
     degree: "PG Diploma in Advanced Computing",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/925837630s.jpg?alt=media&token=86759709-5c2c-4e9a-b8df-403e15f0aef7",
-    school: "Sanjay Ghodawat Institutes Atigre Kohlapur",
-    date: "June 2017 - Apr 2022",
-    grade: "73.3%",
-    desc: "completion of my Bachelor of Technology degree in Mechanical Engineering. With a solid foundation in Mechanical Engineering principles",
-    degree: "B-Tech in Mechanical Engineering (Shivaji University Kohlapur)",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK15HS7adg3rxTBTQvFBjxMQ5z3a-7KsgqCQ&s",
+    school: "Sharad Institute Of Technology College of Engineering, Yadrav, Kolhapur",
+    date: "June 2017 - Apr 2021",
+    grade: "80%",
+    desc: "completion of my Bachelor of Technology degree in Mechanical Engineering. With a solid foundation in Mechanical Engineering principles.",
+    degree: "B-Tech in Mechanical Engineering (Dr.Babasaheb Ambedkar Technological University ,Lonere)",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/12th.png?alt=media&token=ddfefdcb-cf72-4bff-9ef9-f04729269344",
-    school: "Shanti English Medium School And Jr College, Solapur, Maharashtra 413004",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIoSPMKv-6dKXY6IahPlFhrDrD9uAwaYP14A&s",
+    school: "Vivekanand College, Kolhapur, Maharashtra",
     date: "Apr 2015 - Apr 2017",
-    grade: "54.6%",
-    desc: "I completed my class 12th education at Shanti English Medium School And Jr College where I studied Science with Computer Application.",
-    degree: "12th Class in Science",
+    grade: "66.20%",
+    desc: "I completed my class 12th education at Vivekanand College,Kolhapur where I studied Science stream with PCMB Group.",
+    degree: "12th Class in Science With PCMB",
   },
   {
     id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/svp.jpg?alt=media&token=78a1e8c3-caf7-4d37-a8f5-3cc53b42cc36",
-    school: "Swami Vivekanand Prashala jule Solapur",
-    date: "10th Class",
-    grade: "78%",
-    desc: "I completed my class 10 education at Swami Vivekanand Prashala, Jule Solapur where I Completed 10th std Education.",
+    img: "https://cdn6.aptoide.com/imgs/1/4/4/1441ba8b8e45269d34b6332a3eacef45_icon.png",
+    school: "Military School,Tasgaon,Maharastra",
+    date: "Jun 2014 - Jun 2015",
+    grade: "93.20%",
+    desc: "Completed Class 10th education at Military School, Tasgaon, where I received military training and discipline alongside academics.",
     degree: "10th Std",
   },
 ];
