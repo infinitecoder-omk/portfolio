@@ -8,7 +8,7 @@ export const Bio = {
   ],
   description:"Experienced PG-DAC certified web developer with advanced skills in web design and development, currently working as a Software Developer at Macleods Pharmaceuticals. Seeking new opportunities in the IT sector to contribute to impactful web development projects and transform ideas into digital reality.",
   github: "https://github.com/infinitecoder-omk",
-  resume:"http://bit.ly/3BN2AVG",
+  resume:"https://drive.google.com/file/d/1e0vCGGtjKeM3WOQcjTxK3J3BNumuFoiy/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/omkar-varambale-816a81148/",
   email: "omvm4040@gmail.com",
   insta: "https://www.instagram.com/omkar_varambale?igsh=cjNjYjNrN2h4Znl6",
