@@ -10,7 +10,7 @@ export const Bio = {
   github: "https://github.com/infinitecoder-omk",
   resume:"https://drive.google.com/file/d/1e0vCGGtjKeM3WOQcjTxK3J3BNumuFoiy/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/omkar-varambale-816a81148/",
-  email: "omvm4040@gmail.com",
+  email: "mailto:omvm4040@gmail.com",
   insta: "https://www.instagram.com/omkar_varambale?igsh=cjNjYjNrN2h4Znl6",
   
 
