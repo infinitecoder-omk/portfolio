@@ -27,10 +27,10 @@ const Projects = ({ openModal, setOpenModal }) => {
             <ToggleButton value="UI UX" onClick={() => setToggle('UI UX')}>UI UX Design</ToggleButton>
           }
           <Divider />
-          {toggle === 'Frentend Technologies' ?
-            <ToggleButton active value="Frentend Technologies" onClick={() => setToggle('Frentend Technologies')}>Frentend Technologies</ToggleButton>
+          {toggle === 'Frontend Technologies' ?
+            <ToggleButton active value="Frontend Technologies" onClick={() => setToggle('Frontend Technologies')}>Frontend Technologies</ToggleButton>
             :
-            <ToggleButton value="Frentend Technologies" onClick={() => setToggle('Frentend Technologies')}>Frentend Technologies</ToggleButton>
+            <ToggleButton value="Frontend Technologies" onClick={() => setToggle('Frontend Technologies')}>Frontend Technologies</ToggleButton>
           }
           <Divider />
           {toggle === 'Full Stack Application' ?

@@ -469,7 +469,7 @@ export const projects = [
       "Firebase",
 
     ],
-    category: "Frentend Technologies",
+    category: "Frontend Technologies",
     github: "https://github.com/pratiks1010/Personal-Portfolio-Website",
     webapp: "https://www.linkedin.com/posts/pratik-sawant-web-developer_react-css-webdevelopment-activity-7195775369537363968-x97H?utm_source=share&utm_medium=member_desktop",
   },
@@ -584,7 +584,7 @@ export const projects = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/2.jpg?alt=media&token=09e783ff-64b8-48c0-82b7-3aba987a23c8",
     tags: ["ReactJS", "JavaScript", "Axios", "HTML5 ", "CSS", " Bootstrap 5", "Rest API"],
-    category: "Frentend Technologies",
+    category: "Frontend Technologies",
     github: "https://lnkd.in/dZBf76B2",
     webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_react-cryptocurrency-programming-activity-7153743121254604804-AiEM?utm_source=share&utm_medium=member_desktop",
   },
@@ -598,7 +598,7 @@ export const projects = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/pizza%20paradise.png?alt=media&token=d4677a3d-aa73-4022-8f49-f9b70f3dbadf",
     tags: ["Reactjs", "JavaScript", "HTML5 ", "CSS", " Bootstrap 5"],
-    category: "Frentend Technologies",
+    category: "Frontend Technologies",
     github: "https://lnkd.in/dycJDdpu",
     webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_webdevelopment-reactjs-bootstrap5-activity-7117082962185105408-8raz?utm_source=share&utm_medium=member_desktop",
   },
@@ -611,7 +611,7 @@ export const projects = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/zomato.png?alt=media&token=232bd934-39e3-44d3-8358-787147433d36",
     tags: ["Reactjs", "JavaScript", "HTML5 ", "CSS", " Bootstrap 5"],
-    category: "Frentend Technologies",
+    category: "Frontend Technologies",
     github: "https://lnkd.in/d29e_Nad",
     webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_reactjs-webdevelopment-restaurantapp-activity-7109811572176252928-4zYy?utm_source=share&utm_medium=member_desktop",
   },

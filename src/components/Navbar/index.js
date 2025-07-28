@@ -5,10 +5,13 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import { FcNoIdea ,FcIdea } from "react-icons/fc";
+ 
 
-const Navbar = () => {
+const Navbar = ({ darkMode, toggleDarkMode }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
+
   return (
     <Nav>
       <NavbarContainer>
@@ -31,6 +34,10 @@ const Navbar = () => {
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
+             
+        <span onClick={toggleDarkMode} style={{ marginLeft: "auto" }}>
+        {darkMode ? <FcNoIdea style={{ fontSize: "28px" }}/> : <FcIdea style={{ fontSize: "28px" }}/>}
+      </span>
         </ButtonContainer>
         {
           isOpen &&
