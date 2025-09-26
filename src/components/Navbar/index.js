@@ -16,8 +16,8 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <a style={{ display: "flex", alignItems: "center",  color: theme.gajanan, marginBottom: '20;', cursor: 'pointer' }}>
+            <DiCssdeck size="3rem" /> <Span>OMK's Portfolio</Span>
           </a>
         </NavLogo>
         <MobileIcon>

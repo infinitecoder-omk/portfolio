@@ -3,8 +3,9 @@ export const Bio = {
   roles: [
     "Full Stack Developer",
     "UI/UX Designer",
-    "Graphic Designer",
-    "Dev-Ops Engineer"
+    "DOT NET CORE Developer",
+    "Dev-Ops Engineer",
+    "React Developer"
   ],
   description:"Experienced PG-DAC certified web developer with advanced skills in web design and development, currently working as a Software Developer at Macleods Pharmaceuticals. Seeking new opportunities in the IT sector to contribute to impactful web development projects and transform ideas into digital reality.",
   github: "https://github.com/infinitecoder-omk",
@@ -443,7 +444,7 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://cdn6.aptoide.com/imgs/1/4/4/1441ba8b8e45269d34b6332a3eacef45_icon.png",
+    img: "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/OIP.webp",
     school: "Military School,Tasgaon,Maharastra",
     date: "Jun 2014 - Jun 2015",
     grade: "93.20%",
@@ -457,11 +458,11 @@ export const projects = [
   {
     id: 11,
     title: "Personal Portfolio Website  ",
-    date: "16 May 2024",
+    date: "02 Sept 2024",
     description:
       "👋 Excited to share my latest project - a Personal Portfolio Website built with React and CSS! 💻",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/5.jpg?alt=media&token=5e39b6ef-da5b-48c8-a4b7-f2302ea6a702",
+      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/generated-image.png",
     tags: [
       "Reactjs",
       "CSS",
@@ -470,151 +471,163 @@ export const projects = [
 
     ],
     category: "Frontend Technologies",
-    github: "https://github.com/pratiks1010/Personal-Portfolio-Website",
-    webapp: "https://www.linkedin.com/posts/pratik-sawant-web-developer_react-css-webdevelopment-activity-7195775369537363968-x97H?utm_source=share&utm_medium=member_desktop",
+    github: "https://github.com/infinitecoder-omk",
+    webapp: "www.omkarvarambale.co.in",
   },
   {
     id: 10,
-    title: "A Voting Application Back-end API ",
-    date: "10 May 2024",
+    title: "Human Resource Management System (HRMS)",
+    date: "Currently Working",
     description:
-      "This voting application allows users to cast their votes for a predefined set of candidates, ensuring a smooth and efficient voting process.",
+      "An in-house HRMS web application built with React TypeScript, .NET Core, and Oracle, featuring secure authentication, dynamic access control, and workflow approvals for scalable employee management.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/4.jpg?alt=media&token=6345c248-6b36-4aef-97c7-e7233408a64e",
+      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/HRMS.png?ref_type=heads",
     tags: [
-      "Nodejs",
-      "Expressjs",
-      "mongodb Atlas",
+      "Figma",
+      "ReactTS",
+      "Dot Net Core 8",
+      "Oracle",
       "JWT",
       "Postman",
+      "Linux"
 
     ],
     category: "Full Stack Application",
-    github: "https://www.linkedin.com/posts/pratik-sawant-726672223_carrental-uiuxdesign-websitelaunch-activity-7162324224957706240-bazw?utm_source=share&utm_medium=member_desktop",
-    webapp: "https://www.behance.net/gallery/191247765/Rental-car-website",
+    github: "https://github.com/infinitecoder-omk",
+    // webapp: "https://www.behance.net/gallery/191247765/Rental-car-website",
   },
   {
     id: 9,
-    title: "Ui UX Design of Rental Car Platform ",
-    date: "06 february 2024",
+    title: "Housing Society Management System ",
+    date: "31 Oct 2023",
     description:
-      "latest project: a sleek and user-friendly Ui UX Design of rental car platform designed with your convenience in mind. Browse through our diverse selection of luxury vehicles, enjoy seamless booking, and benefit from 24/7 customer support. Your next adventure starts here Explore our user-friendly website now for hassle-free booking and unparalleled service. Visit my Behance profile for an in-depth look at our innovative UI/UX design.",
+      "A full-stack Housing Society Management Web Application that digitizes society operations by providing member management, maintenance tracking, service requests, and notices with a scalable React-ASP.NET Core-MSSQL solution deployed on AWS.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/Rental%20Car%20WebSite%20Page%201.jpg?alt=media&token=486f765b-6b5f-43fc-a2d5-9645d23fdb7a",
+      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/HSMS.png?ref_type=heads",
     tags: [
-      "Adobe XD",
-      "Photoshop",
-      "Canva",
       "Figma",
-      "flaticon",
+      "ReactJS",
+      "Dot Net Core 8",
+      "MSSQL",
+      "JWT",
+      "Postman",
+      "AWS EC2"
 
     ],
-    category: "UI UX",
-    github: "https://github.com/pratiks1010/Voting-Application-REST-API-",
-    webapp: "https://www.linkedin.com/pulse/introducing-my-latest-project-voting-application-pratik-sawant-wcgcf/?trackingId=8thPc5c7QteQnlx6kw9QbA%3D%3D",
+    category: "Full Stack Application",
+    github: "https://github.com/infinitecoder-omk",
+    // webapp: "https://www.linkedin.com/pulse/introducing-my-latest-project-voting-application-pratik-sawant-wcgcf/?trackingId=8thPc5c7QteQnlx6kw9QbA%3D%3D",
   },
   {
     id: 0,
-    title: "Food Delivery App",
-    date: "16 february 2024",
+    title: "PracUp-Digital Educational Platform",
+    date: "30 Dec 2024",
     description:
-      "latest UI/UX project 🎨✨- a sleek and user-friendly design for a food delivery app! 🚀 From seamless navigation to enticing visuals, every detail is crafted for a delightful dining experience. ",
+      "A full-stack educational web platform built with React, Node.js, .NET Core, and MongoDB, featuring messaging, video calling, payments, and deployed on Linux for stability and scalability. ",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/CoverImage.jpg?alt=media&token=4948d075-7694-4cd6-a7ac-fc4ee71db9a4",
-    tags: ["Adobe XD", "Photoshop", "Canva", "Figma", "flaticon"],
-    category: "UI UX",
-    github: "https://www.linkedin.com/posts/pratik-sawant-726672223_uiuxdesign-fooddeliveryapp-designexcellence-activity-7157235327600934912-Co9n?utm_source=share&utm_medium=member_desktop",
-    webapp: "https://www.behance.net/gallery/190103003/food-delivery-app",
+      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/PracUp.png?ref_type=heads",
+    tags: [
+      "Figma",
+      "ReactTS",
+      "Dot Net Core 8",
+      "MongoDB",
+      "JWT",
+      "Swagger",
+      "Hostinger Cloud"],
+    category: "Full Stack Application",
+    github: "https://github.com/infinitecoder-omk",
+    webapp: "www.pracup.com",
     
   },
+  //UI UX
   {
     id: 1,
-    title: "Sneaker Store Website Home Page",
-    date: "24 January 2024",
+    title: "Dua-Digital Event Invitation App",
+    date: "21 Apr 2025",
     description:
-      "Excited to share my new sneaker store website! UI/UX Project 🚀 It's easy to use, looks great, and has cool features. You can easily find what you're looking for with the simple layout and search function. I added awesome pictures and videos with interesting info to make it more appealing. ",
+      "A smart full-stack event timeline web application built with React and Node.js, featuring interactive timelines, photo carousels, QR code access, and real-time WhatsApp notifications to connect loved ones across distances.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/shoeWebSite%20(page1).jpg?alt=media&token=97f87f83-1590-4a43-8b31-3fe96c670b39",
+      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/DUA.png?ref_type=heads",
     tags: [
-      "Adobe XD",
-      "Photoshop",
-      "Canva",
       "Figma",
-      "flaticon",
-      "Clean png",
+      "ReactJS",
+      "Node Express",
+      "sqlite3",
+      "Postman",
+      "Vercel-Render"
     ],
-    category: "UI UX",
-    github: "https://www.linkedin.com/posts/pratik-sawant-726672223_ui-ux-webdesign-activity-7155602075245043712-dEE_?utm_source=share&utm_medium=member_desktop",
-    webapp: "https://www.behance.net/gallery/189733061/sneaker-store-website",
-  },
-  {
-    id: 2,
-    title: "Pet Paradise (Pet Shop Web Application)",
-    date: "10 Aug 2023 - 15 Sep 2023",
-    description:
-      "Pet Shop web application is to provide a digital platform designed to facilitate the buying, selling, and management of pets and pet-related products. It serves as an online marketplace where pet enthusiasts, pet owners, breeders, and pet product vendors can interact, showcase their offerings, and make transactions.The objective of the Pet-Shop Web Application is to create a user-friendly and effective platform for customers to easily browse and buy products related to pets. The application strives to ensure a smooth and hassle-free shopping journey, allowing users to discover an extensive variety of pet products and complete their purchases online with ease",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/homepahe.png?alt=media&token=0df8aac5-b95d-42fa-9fb4-dc2a2f82b783",
-    tags: ["ReactJs ", "Javascript", "Axios", "HTML5", "CSS", "Bootstrap 5", "Java", "Spring Boot", "REST Api", "JWT", "Spring Security"],
     category: "Full Stack Application",
-    github: "https://github.com/pratiks1010/PetShop_WebApplication.git",
+    github: "https://github.com/infinitecoder-omk",
+    // webapp: "https://www.behance.net/gallery/189733061/sneaker-store-website",
+  },
+  // {
+  //   id: 2,
+  //   title: "Pet Paradise (Pet Shop Web Application)",
+  //   date: "10 Aug 2023 - 15 Sep 2023",
+  //   description:
+  //     "Pet Shop web application is to provide a digital platform designed to facilitate the buying, selling, and management of pets and pet-related products. It serves as an online marketplace where pet enthusiasts, pet owners, breeders, and pet product vendors can interact, showcase their offerings, and make transactions.The objective of the Pet-Shop Web Application is to create a user-friendly and effective platform for customers to easily browse and buy products related to pets. The application strives to ensure a smooth and hassle-free shopping journey, allowing users to discover an extensive variety of pet products and complete their purchases online with ease",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/homepahe.png?alt=media&token=0df8aac5-b95d-42fa-9fb4-dc2a2f82b783",
+  //   tags: ["ReactJs ", "Javascript", "Axios", "HTML5", "CSS", "Bootstrap 5", "Java", "Spring Boot", "REST Api", "JWT", "Spring Security"],
+  //   category: "Full Stack Application",
+  //   github: "https://github.com/pratiks1010/PetShop_WebApplication.git",
 
-    member: [
-      {
-        name: "Pratik Sawant",
-        img: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/logo8.png?alt=media&token=a6ba294c-1b44-414b-b769-e3217ff7feda",
-        linkedin: "https://www.linkedin.com/in/pratik-sawant-726672223/",
-        github: "https://github.com/pratiks1010",
-      },
-      {
-        name: "Uddesh Deshmukh",
-        img: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/uddesh.jpg?alt=media&token=5ea0d760-375b-4afc-a9ff-2779888baf03",
-        linkedin: "https://www.linkedin.com/in/uddesh-deshmukh-073b97204",
-        github: "http://github.com/UddeshDeshmukh21",
-      },
-    ],
-  },
+  //   member: [
+  //     {
+  //       name: "Pratik Sawant",
+  //       img: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/logo8.png?alt=media&token=a6ba294c-1b44-414b-b769-e3217ff7feda",
+  //       linkedin: "https://www.linkedin.com/in/pratik-sawant-726672223/",
+  //       github: "https://github.com/pratiks1010",
+  //     },
+  //     {
+  //       name: "Uddesh Deshmukh",
+  //       img: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/uddesh.jpg?alt=media&token=5ea0d760-375b-4afc-a9ff-2779888baf03",
+  //       linkedin: "https://www.linkedin.com/in/uddesh-deshmukh-073b97204",
+  //       github: "http://github.com/UddeshDeshmukh21",
+  //     },
+  //   ],
+  // },
 
-  {
-    id: 10,
-    title: "Crypto Currency App",
-    date: "15 January 2024",
-    description:
-      "Crypto Currency App! 🌐💼 I've built a React app that provides real-time information about various cryptocurrencies. 📊💰 👉 Features:Search and explore different cryptocurrencies. Details include rank, name, symbol, market capitalization, and more.Clean and user-friendly interface.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/2.jpg?alt=media&token=09e783ff-64b8-48c0-82b7-3aba987a23c8",
-    tags: ["ReactJS", "JavaScript", "Axios", "HTML5 ", "CSS", " Bootstrap 5", "Rest API"],
-    category: "Frontend Technologies",
-    github: "https://lnkd.in/dZBf76B2",
-    webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_react-cryptocurrency-programming-activity-7153743121254604804-AiEM?utm_source=share&utm_medium=member_desktop",
-  },
+  // {
+  //   id: 10,
+  //   title: "Crypto Currency App",
+  //   date: "15 January 2024",
+  //   description:
+  //     "Crypto Currency App! 🌐💼 I've built a React app that provides real-time information about various cryptocurrencies. 📊💰 👉 Features:Search and explore different cryptocurrencies. Details include rank, name, symbol, market capitalization, and more.Clean and user-friendly interface.",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/2.jpg?alt=media&token=09e783ff-64b8-48c0-82b7-3aba987a23c8",
+  //   tags: ["ReactJS", "JavaScript", "Axios", "HTML5 ", "CSS", " Bootstrap 5", "Rest API"],
+  //   category: "Frontend Technologies",
+  //   github: "https://lnkd.in/dZBf76B2",
+  //   webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_react-cryptocurrency-programming-activity-7153743121254604804-AiEM?utm_source=share&utm_medium=member_desktop",
+  // },
 
-  {
-    id: 7,
-    title: "Pizza Paradise",
-    date: "12 january 2024",
-    description:
-      "introduce my latest web project, Pizza Paradise! 🍕. Built with React.js and Bootstrap 5, Pizza Paradise is a responsive and delicious way to explore a mouthwatering pizza menu and place your order online. It's been a labor of love, and I'm excited to share it with you all.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/pizza%20paradise.png?alt=media&token=d4677a3d-aa73-4022-8f49-f9b70f3dbadf",
-    tags: ["Reactjs", "JavaScript", "HTML5 ", "CSS", " Bootstrap 5"],
-    category: "Frontend Technologies",
-    github: "https://lnkd.in/dycJDdpu",
-    webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_webdevelopment-reactjs-bootstrap5-activity-7117082962185105408-8raz?utm_source=share&utm_medium=member_desktop",
-  },
-  {
-    id: 8,
-    title: " Zomato-inspired Restaurant Web Application",
-    date: "18 September 2023",
-    description:
-      " project: a Zomato-inspired restaurant web application built with React.js! 🍽️ 🔍 Project Highlights: Modern UI: Designed with user-friendly features and a clean interface for a seamless dining experience. Search and Filter: Easily discover restaurants by cuisine, location, and price range. Detailed Listings: Get all the information you need - from menu options to reviews. User Reviews: Leave your thoughts and read what others are saying about their dining experiences.Responsive: Accessible on all devices, so you can find your next meal on the go!",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/zomato.png?alt=media&token=232bd934-39e3-44d3-8358-787147433d36",
-    tags: ["Reactjs", "JavaScript", "HTML5 ", "CSS", " Bootstrap 5"],
-    category: "Frontend Technologies",
-    github: "https://lnkd.in/d29e_Nad",
-    webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_reactjs-webdevelopment-restaurantapp-activity-7109811572176252928-4zYy?utm_source=share&utm_medium=member_desktop",
-  },
+  // {
+  //   id: 7,
+  //   title: "Pizza Paradise",
+  //   date: "12 january 2024",
+  //   description:
+  //     "introduce my latest web project, Pizza Paradise! 🍕. Built with React.js and Bootstrap 5, Pizza Paradise is a responsive and delicious way to explore a mouthwatering pizza menu and place your order online. It's been a labor of love, and I'm excited to share it with you all.",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/pizza%20paradise.png?alt=media&token=d4677a3d-aa73-4022-8f49-f9b70f3dbadf",
+  //   tags: ["Reactjs", "JavaScript", "HTML5 ", "CSS", " Bootstrap 5"],
+  //   category: "Frontend Technologies",
+  //   github: "https://lnkd.in/dycJDdpu",
+  //   webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_webdevelopment-reactjs-bootstrap5-activity-7117082962185105408-8raz?utm_source=share&utm_medium=member_desktop",
+  // },
+  // {
+  //   id: 8,
+  //   title: " Zomato-inspired Restaurant Web Application",
+  //   date: "18 September 2023",
+  //   description:
+  //     " project: a Zomato-inspired restaurant web application built with React.js! 🍽️ 🔍 Project Highlights: Modern UI: Designed with user-friendly features and a clean interface for a seamless dining experience. Search and Filter: Easily discover restaurants by cuisine, location, and price range. Detailed Listings: Get all the information you need - from menu options to reviews. User Reviews: Leave your thoughts and read what others are saying about their dining experiences.Responsive: Accessible on all devices, so you can find your next meal on the go!",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/zomato.png?alt=media&token=232bd934-39e3-44d3-8358-787147433d36",
+  //   tags: ["Reactjs", "JavaScript", "HTML5 ", "CSS", " Bootstrap 5"],
+  //   category: "Frontend Technologies",
+  //   github: "https://lnkd.in/d29e_Nad",
+  //   webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_reactjs-webdevelopment-restaurantapp-activity-7109811572176252928-4zYy?utm_source=share&utm_medium=member_desktop",
+  // },
 ];
 
 export const TimeLineData = [

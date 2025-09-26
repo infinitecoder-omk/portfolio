@@ -21,11 +21,11 @@ const Projects = ({ openModal, setOpenModal }) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'UI UX' ?
+          {/* {toggle === 'UI UX' ?
             <ToggleButton active value="UI UX" onClick={() => setToggle('UI UX')}>UI UX Design</ToggleButton>
             :
             <ToggleButton value="UI UX" onClick={() => setToggle('UI UX')}>UI UX Design</ToggleButton>
-          }
+          } */}
           <Divider />
           {toggle === 'Frontend Technologies' ?
             <ToggleButton active value="Frontend Technologies" onClick={() => setToggle('Frontend Technologies')}>Frontend Technologies</ToggleButton>
@@ -39,7 +39,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             <ToggleButton value="Full Stack Application" onClick={() => setToggle('Full Stack Application')}>Full Stack Application</ToggleButton>
           }
         </ToggleButtonGroup>
-        {/* <CardContainer>
+        <CardContainer>
           {toggle === 'all' && projects
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} />
@@ -49,8 +49,8 @@ const Projects = ({ openModal, setOpenModal }) => {
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} />
             ))}
-        </CardContainer> */}'
-        <div>Projects page is under Construction. Kindly Contact Admin !</div>
+        </CardContainer>
+        {/* <div>Projects page is under Construction. Kindly Contact Admin !</div> */}
       </Wrapper>
     </Container>
   )
