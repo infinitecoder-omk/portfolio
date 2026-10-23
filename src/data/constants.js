@@ -2,12 +2,12 @@ export const Bio = {
   name: "Omkar Varambale",
   roles: [
     "Full Stack Developer",
-    "UI/UX Designer",
+    "AI Engineer",
     "DOT NET CORE Developer",
     "Dev-Ops Engineer",
     "React Developer"
   ],
-  description:"Experienced PG-DAC certified web developer with advanced skills in web design and development, currently working as a Software Developer at Macleods Pharmaceuticals. Seeking new opportunities in the IT sector to contribute to impactful web development projects and transform ideas into digital reality.",
+  description:"Experienced certified AI Engineer & PG-DAC certified Full Stack Developer with advanced skills in web design and development, currently working as a Senior Software Developer at Macleods Pharmaceuticals. Seeking new opportunities in the IT sector to contribute to impactful web development projects and transform ideas into digital reality.",
   github: "https://github.com/infinitecoder-omk",
   resume:"https://drive.google.com/file/d/1e0vCGGtjKeM3WOQcjTxK3J3BNumuFoiy/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/omkar-varambale-816a81148/",
@@ -385,7 +385,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://awrange.com/wp-content/uploads/2024/09/awrange-bg-1024x1018.png",
+    img: "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/Docs/awrangepune.png",
     role: "Software Developer Intern",
     company: "Awrange Digital Solutions Pvt. Ltd.",
     date: "Oct 2023 to Dec 2024",
@@ -444,7 +444,7 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/OIP.webp",
+    img: "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/Docs/OIP.webp",
     school: "Military School,Tasgaon,Maharastra",
     date: "Jun 2014 - Jun 2015",
     grade: "93.20%",
@@ -462,7 +462,7 @@ export const projects = [
     description:
       "👋 Excited to share my latest project - a Personal Portfolio Website built with React and CSS! 💻",
     image:
-      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/generated-image.png",
+      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/Docs/generated-image.png",
     tags: [
       "Reactjs",
       "CSS",
@@ -481,7 +481,7 @@ export const projects = [
     description:
       "An in-house HRMS web application built with React TypeScript, .NET Core, and Oracle, featuring secure authentication, dynamic access control, and workflow approvals for scalable employee management.",
     image:
-      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/HRMS.png?ref_type=heads",
+      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/Docs/HRMS.png?ref_type=heads",
     tags: [
       "Figma",
       "ReactTS",
@@ -503,7 +503,7 @@ export const projects = [
     description:
       "A full-stack Housing Society Management Web Application that digitizes society operations by providing member management, maintenance tracking, service requests, and notices with a scalable React-ASP.NET Core-MSSQL solution deployed on AWS.",
     image:
-      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/HSMS.png?ref_type=heads",
+      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/Docs/HSMS.png?ref_type=heads",
     tags: [
       "Figma",
       "ReactJS",
@@ -525,7 +525,7 @@ export const projects = [
     description:
       "A full-stack educational web platform built with React, Node.js, .NET Core, and MongoDB, featuring messaging, video calling, payments, and deployed on Linux for stability and scalability. ",
     image:
-      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/PracUp.png?ref_type=heads",
+      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/Docs/PracUp.png?ref_type=heads",
     tags: [
       "Figma",
       "ReactTS",
@@ -547,7 +547,7 @@ export const projects = [
     description:
       "A smart full-stack event timeline web application built with React and Node.js, featuring interactive timelines, photo carousels, QR code access, and real-time WhatsApp notifications to connect loved ones across distances.",
     image:
-      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/DUA.png?ref_type=heads",
+      "https://gitlab.com/Omkar_varambale/publicdocs/-/raw/main/Docs/DUA.png?ref_type=heads",
     tags: [
       "Figma",
       "ReactJS",
@@ -560,74 +560,6 @@ export const projects = [
     github: "https://github.com/infinitecoder-omk",
     // webapp: "https://www.behance.net/gallery/189733061/sneaker-store-website",
   },
-  // {
-  //   id: 2,
-  //   title: "Pet Paradise (Pet Shop Web Application)",
-  //   date: "10 Aug 2023 - 15 Sep 2023",
-  //   description:
-  //     "Pet Shop web application is to provide a digital platform designed to facilitate the buying, selling, and management of pets and pet-related products. It serves as an online marketplace where pet enthusiasts, pet owners, breeders, and pet product vendors can interact, showcase their offerings, and make transactions.The objective of the Pet-Shop Web Application is to create a user-friendly and effective platform for customers to easily browse and buy products related to pets. The application strives to ensure a smooth and hassle-free shopping journey, allowing users to discover an extensive variety of pet products and complete their purchases online with ease",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/homepahe.png?alt=media&token=0df8aac5-b95d-42fa-9fb4-dc2a2f82b783",
-  //   tags: ["ReactJs ", "Javascript", "Axios", "HTML5", "CSS", "Bootstrap 5", "Java", "Spring Boot", "REST Api", "JWT", "Spring Security"],
-  //   category: "Full Stack Application",
-  //   github: "https://github.com/pratiks1010/PetShop_WebApplication.git",
-
-  //   member: [
-  //     {
-  //       name: "Pratik Sawant",
-  //       img: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/logo8.png?alt=media&token=a6ba294c-1b44-414b-b769-e3217ff7feda",
-  //       linkedin: "https://www.linkedin.com/in/pratik-sawant-726672223/",
-  //       github: "https://github.com/pratiks1010",
-  //     },
-  //     {
-  //       name: "Uddesh Deshmukh",
-  //       img: "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/uddesh.jpg?alt=media&token=5ea0d760-375b-4afc-a9ff-2779888baf03",
-  //       linkedin: "https://www.linkedin.com/in/uddesh-deshmukh-073b97204",
-  //       github: "http://github.com/UddeshDeshmukh21",
-  //     },
-  //   ],
-  // },
-
-  // {
-  //   id: 10,
-  //   title: "Crypto Currency App",
-  //   date: "15 January 2024",
-  //   description:
-  //     "Crypto Currency App! 🌐💼 I've built a React app that provides real-time information about various cryptocurrencies. 📊💰 👉 Features:Search and explore different cryptocurrencies. Details include rank, name, symbol, market capitalization, and more.Clean and user-friendly interface.",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/2.jpg?alt=media&token=09e783ff-64b8-48c0-82b7-3aba987a23c8",
-  //   tags: ["ReactJS", "JavaScript", "Axios", "HTML5 ", "CSS", " Bootstrap 5", "Rest API"],
-  //   category: "Frontend Technologies",
-  //   github: "https://lnkd.in/dZBf76B2",
-  //   webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_react-cryptocurrency-programming-activity-7153743121254604804-AiEM?utm_source=share&utm_medium=member_desktop",
-  // },
-
-  // {
-  //   id: 7,
-  //   title: "Pizza Paradise",
-  //   date: "12 january 2024",
-  //   description:
-  //     "introduce my latest web project, Pizza Paradise! 🍕. Built with React.js and Bootstrap 5, Pizza Paradise is a responsive and delicious way to explore a mouthwatering pizza menu and place your order online. It's been a labor of love, and I'm excited to share it with you all.",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/pizza%20paradise.png?alt=media&token=d4677a3d-aa73-4022-8f49-f9b70f3dbadf",
-  //   tags: ["Reactjs", "JavaScript", "HTML5 ", "CSS", " Bootstrap 5"],
-  //   category: "Frontend Technologies",
-  //   github: "https://lnkd.in/dycJDdpu",
-  //   webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_webdevelopment-reactjs-bootstrap5-activity-7117082962185105408-8raz?utm_source=share&utm_medium=member_desktop",
-  // },
-  // {
-  //   id: 8,
-  //   title: " Zomato-inspired Restaurant Web Application",
-  //   date: "18 September 2023",
-  //   description:
-  //     " project: a Zomato-inspired restaurant web application built with React.js! 🍽️ 🔍 Project Highlights: Modern UI: Designed with user-friendly features and a clean interface for a seamless dining experience. Search and Filter: Easily discover restaurants by cuisine, location, and price range. Detailed Listings: Get all the information you need - from menu options to reviews. User Reviews: Leave your thoughts and read what others are saying about their dining experiences.Responsive: Accessible on all devices, so you can find your next meal on the go!",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/images-18f5e.appspot.com/o/zomato.png?alt=media&token=232bd934-39e3-44d3-8358-787147433d36",
-  //   tags: ["Reactjs", "JavaScript", "HTML5 ", "CSS", " Bootstrap 5"],
-  //   category: "Frontend Technologies",
-  //   github: "https://lnkd.in/d29e_Nad",
-  //   webapp: "https://www.linkedin.com/posts/pratik-sawant-726672223_reactjs-webdevelopment-restaurantapp-activity-7109811572176252928-4zYy?utm_source=share&utm_medium=member_desktop",
-  // },
 ];
 
 export const TimeLineData = [

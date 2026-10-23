@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import _default from '../../themes/default';
 
 export const Nav = styled.div`
-    background-color: ${({theme}) => theme.card_light};
+    background-color: ${({theme}) => theme.navbar_bg};
     height: 80px;
     display: flex;
     align-items: center;
@@ -12,6 +12,7 @@ export const Nav = styled.div`
     position: sticky;
     top: 0;
     z-index: 10;
+    box-shadow: 0 2px 12px rgba(20, 15, 30, 0.12);
     @media (max-width: 960px) {
         trastion: 0.8s all ease;
     }
@@ -109,19 +110,40 @@ export const ButtonContainer = styled.div`
 `;
 
 
-export const MobileIcon = styled.div`
+export const MobileIcon = styled.button`
   display: none;
+    border: 0;
+    padding: 4px;
+    background: transparent;
   @media screen and (max-width: 768px) {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
+    position: static;
     font-size: 1.5rem;
     cursor: pointer;
     color: ${({ theme }) => theme.text_primary};
   }
 `
+
+export const MobileActions = styled.div`
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-left: auto;
+    color: ${({ theme }) => theme.text_primary};
+  }
+`;
+
+export const MobileThemeToggle = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+`;
 
 export const MobileMenu = styled.div`
     display: flex;

@@ -1,11 +1,11 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
-import { DiCssdeck } from 'react-icons/di';
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileActions, MobileThemeToggle, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 import { FcNoIdea ,FcIdea } from "react-icons/fc";
+import starLogo from '../../images/gold_star_rotation.gif';
  
 
 const Navbar = ({ darkMode, toggleDarkMode }) => {
@@ -17,14 +17,18 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center",  color: theme.gajanan, marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>OMK's Portfolio</Span>
+            <img src={starLogo} alt="" aria-hidden="true" style={{ width: 64, height: 64, objectFit: 'contain', marginRight: 8 }} />
+            <Span>OMK's Portfolio</Span>
           </a>
         </NavLogo>
-        <MobileIcon>
-          <FaBars onClick={() => {
-            setIsOpen(!isOpen)
-          }} />
-        </MobileIcon>
+        <MobileActions>
+          <MobileThemeToggle type="button" onClick={toggleDarkMode} aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}>
+            {darkMode ? <FcIdea style={{ fontSize: "28px" }}/> : <FcNoIdea style={{ fontSize: "28px" }}/>}
+          </MobileThemeToggle>
+          <MobileIcon type="button" onClick={() => setIsOpen(!isOpen)} aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'}>
+            <FaBars />
+          </MobileIcon>
+        </MobileActions>
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
