@@ -1,8 +1,7 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileActions, MobileThemeToggle, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileActions, MobileThemeToggle, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
-import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 import { FcNoIdea ,FcIdea } from "react-icons/fc";
 import starLogo from '../../images/gold_star_rotation.gif';
@@ -16,10 +15,10 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center",  color: theme.gajanan, marginBottom: '20;', cursor: 'pointer' }}>
+          <div style={{ display: "flex", alignItems: "center", color: theme.gajanan, cursor: 'pointer' }}>
             <img src={starLogo} alt="" aria-hidden="true" style={{ width: 64, height: 64, objectFit: 'contain', marginRight: 8 }} />
             <Span>OMK's Portfolio</Span>
-          </a>
+          </div>
         </NavLogo>
         <MobileActions>
           <MobileThemeToggle type="button" onClick={toggleDarkMode} aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}>
